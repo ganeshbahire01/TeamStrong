@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            background-color: #1c2837;
+            display:flex;
+            justify-content:space-between;
+            border-radius: 20px;
+            color: white;
+            font-size: 20px;
+            align-items: center;
+        }
+        #navbar>div:nth-child(1){
+            margin-left: 20px;
+        }
+        #navbar>div:nth-child(2){
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap:15px;
+            text-align: center;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <p>Reebok</p>
+        </div>
+        <div>
+            <p>Men</2>
+            <p>Women</p>
+            <p>Login</p>
+            <p>Signup</p>
+        </div>
+    </div>
+</body>
+</html>
